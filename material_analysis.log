@@ -1,0 +1,519 @@
+2025-03-30 00:25:03,354 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:25:03,354 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 00:25:04,814 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 00:25:14,365 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 00:25:16,196 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 00:25:25,025 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 00:25:25,964 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 00:25:25,966 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 00:25:27,228 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 00:25:27,228 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 00:25:28,103 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result.csv
+2025-03-30 00:25:28,103 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result.csv
+2025-03-30 00:25:29,375 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 00:25:29,375 - material_analysis.main - INFO - Application execution completed
+2025-03-30 00:35:26,834 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:35:26,834 - material_analysis.main - INFO - Starting in web mode
+2025-03-30 00:35:30,571 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:35:30,571 - material_analysis.main - INFO - Starting in web mode
+2025-03-30 00:39:31,969 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:39:31,969 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 00:39:33,406 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 00:40:16,892 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:40:20,861 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:40:43,570 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 00:40:45,106 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 00:40:45,106 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 00:40:47,181 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 00:40:56,022 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 00:40:56,965 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 00:40:56,976 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 00:40:58,297 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 00:40:58,297 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 00:40:59,358 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result.csv
+2025-03-30 00:40:59,360 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result.csv
+2025-03-30 00:41:00,495 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 00:41:00,495 - material_analysis.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 00:41:39,009 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 00:41:40,000 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 00:41:40,000 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 00:41:40,870 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 00:41:50,060 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 00:41:51,043 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 00:41:51,081 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 00:41:52,218 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 00:41:52,218 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 00:41:53,146 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result.csv
+2025-03-30 00:41:53,146 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result.csv
+2025-03-30 00:41:54,368 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 00:41:54,368 - material_analysis.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 00:42:38,688 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:43:44,795 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:43:48,685 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:43:58,008 - material_analysis.web - ERROR - Error processing query: name 'logging' is not defined
+2025-03-30 00:44:03,095 - material_analysis.web - ERROR - Error processing query: name 'logging' is not defined
+2025-03-30 00:44:03,730 - material_analysis.web - ERROR - Error processing query: name 'logging' is not defined
+2025-03-30 00:44:04,364 - material_analysis.web - ERROR - Error processing query: name 'logging' is not defined
+2025-03-30 00:44:15,350 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:44:21,004 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 00:44:22,573 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 00:44:22,573 - material_analysis.web - ERROR - Error processing query: SimpleReActFramework.run() got an unexpected keyword argument 'stream_output'
+2025-03-30 00:44:30,139 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:44:33,966 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:44:49,746 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 00:44:51,305 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 00:44:51,305 - material_analysis.web - ERROR - Error processing query: SimpleReActFramework.run() got an unexpected keyword argument 'stream_output'
+2025-03-30 00:45:01,693 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:45:07,256 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:45:11,143 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:45:21,718 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 00:45:23,254 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 00:45:23,254 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 00:45:25,058 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 00:45:33,815 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 00:45:34,938 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 00:45:34,954 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 00:45:37,040 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 00:45:37,040 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 00:45:37,994 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result.csv
+2025-03-30 00:45:37,994 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result.csv
+2025-03-30 00:45:39,487 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 00:45:39,487 - material_analysis.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 00:47:22,419 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:47:26,332 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:47:37,398 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 00:47:38,938 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 00:47:38,938 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 00:47:40,774 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 00:47:49,385 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 00:47:50,314 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 00:47:50,335 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 00:47:51,468 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 00:47:51,468 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 00:47:52,862 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result.csv
+2025-03-30 00:47:52,870 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result.csv
+2025-03-30 00:47:54,096 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 00:47:54,097 - material_analysis.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 00:50:41,472 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:50:51,969 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:50:56,078 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:51:02,392 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 00:51:03,971 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 00:51:03,971 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 00:51:06,436 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 00:51:15,237 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 00:51:16,973 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 00:51:16,979 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 00:51:18,083 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 00:51:18,083 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 00:51:19,030 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result.csv
+2025-03-30 00:51:19,032 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result.csv
+2025-03-30 00:51:20,545 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 00:51:20,553 - nanozyme_framework.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 00:54:03,760 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:54:07,592 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:55:01,574 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:55:05,361 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:55:19,006 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 00:55:20,540 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 00:55:20,540 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 00:55:22,407 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 00:55:30,997 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 00:55:32,316 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 00:55:32,326 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 00:55:35,004 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 00:55:35,009 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 00:55:36,273 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result.csv
+2025-03-30 00:55:36,278 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result.csv
+2025-03-30 00:55:38,013 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 00:55:38,013 - nanozyme_framework.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 00:57:31,833 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:57:35,784 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 00:57:41,497 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 00:57:43,023 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 00:57:43,023 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 00:57:45,106 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 00:57:54,083 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 00:57:55,104 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 00:57:55,116 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 00:57:56,390 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 00:57:56,390 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 00:57:57,424 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result.csv
+2025-03-30 00:57:57,424 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result.csv
+2025-03-30 00:57:58,666 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 00:57:58,666 - nanozyme_framework.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 01:00:24,125 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 01:00:27,994 - material_analysis.main - INFO - Starting material analysis application
+2025-03-30 01:00:35,121 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 01:00:36,674 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 01:00:36,674 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 01:00:38,518 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 01:00:47,110 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 01:00:48,491 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 01:00:48,493 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 01:00:49,726 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 01:00:49,727 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 01:00:50,818 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result.csv
+2025-03-30 01:00:50,820 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result.csv
+2025-03-30 01:00:52,248 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 01:00:52,248 - nanozyme_framework.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 01:01:07,460 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 01:01:08,424 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 01:01:08,424 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result_test.csv
+2025-03-30 01:01:09,590 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 01:01:18,258 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 01:01:20,656 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 01:01:20,675 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 01:01:21,947 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 01:01:21,949 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 01:01:23,226 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result_test.csv
+2025-03-30 01:01:23,226 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result_test.csv
+2025-03-30 01:01:24,411 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 01:01:24,411 - nanozyme_framework.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 12:22:23,231 - material_analysis.train - INFO - Starting model training process
+2025-03-30 12:22:23,233 - material_analysis.train - INFO - Training with data from: ./data/train.csv
+2025-03-30 12:22:23,274 - material_analysis.data.processor - INFO - DataProcessor initialized with magpie ElementProperty featurizer
+2025-03-30 12:22:23,274 - material_analysis.train - INFO - Loading and processing training data
+2025-03-30 12:22:23,274 - material_analysis.data.processor - INFO - Loading data from ./data/train.csv
+2025-03-30 12:22:23,285 - material_analysis.data.processor - INFO - Loaded 18 samples from ./data/train.csv
+2025-03-30 12:22:23,285 - material_analysis.data.processor - INFO - Generating magpie features
+2025-03-30 12:22:27,263 - material_analysis.data.processor - INFO - Feature matrix shape: (18, 132), Label vector shape: (18,)
+2025-03-30 12:22:27,263 - material_analysis.data.processor - INFO - Splitting data with test_size=0.2, random_state=42
+2025-03-30 12:22:27,267 - material_analysis.data.processor - INFO - Data split complete: 14 training samples, 4 test samples
+2025-03-30 12:22:27,267 - material_analysis.data.processor - INFO - Training set distribution: 9 positive, 5 negative
+2025-03-30 12:22:27,267 - material_analysis.data.processor - INFO - Test set distribution: 2 positive, 2 negative
+2025-03-30 12:22:27,267 - material_analysis.models.trainer - INFO - ModelTrainer initialized with CatBoostClassifier
+2025-03-30 12:22:27,267 - material_analysis.train - INFO - Training model
+2025-03-30 12:22:27,267 - material_analysis.models.trainer - INFO - Training model on 14 samples with 132 features
+2025-03-30 12:22:28,976 - material_analysis.models.trainer - INFO - Model training completed
+2025-03-30 12:22:28,976 - material_analysis.models.trainer - INFO - Evaluating model on 4 test samples
+2025-03-30 12:22:28,992 - material_analysis.models.trainer - INFO - Saving model to ./model/catboost_model.cbm
+2025-03-30 12:22:28,992 - material_analysis.models.trainer - INFO - Model saved successfully
+2025-03-30 12:22:28,992 - material_analysis.train - INFO - Model saved to: ./model/catboost_model.cbm
+2025-03-30 12:22:28,992 - material_analysis.train - INFO - Training process completed successfully
+2025-03-30 12:40:45,844 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 12:40:48,063 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 12:40:48,063 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 12:40:50,133 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 12:41:02,862 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 12:41:04,174 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 12:41:04,216 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 12:41:05,348 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 12:41:05,352 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 12:41:06,355 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result.csv
+2025-03-30 12:41:06,373 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result.csv
+2025-03-30 12:41:07,647 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 12:41:07,648 - nanozyme_framework.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 12:41:59,203 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 12:42:01,274 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 12:42:01,274 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 12:42:02,254 - material_analysis.tools.material_tools - INFO - Reading data file: ./data/predict.csv
+2025-03-30 12:42:14,652 - material_analysis.tools.material_tools - INFO - Successfully read material expressions, shape: (18, 2)
+2025-03-30 12:42:16,193 - material_analysis.tools.material_tools - INFO - Using model for prediction: ./model/catboost_model.cbm
+2025-03-30 12:42:16,212 - material_analysis.tools.material_tools - INFO - Model prediction completed
+2025-03-30 12:42:17,258 - material_analysis.tools.material_tools - INFO - Performing rule matching: Sc,Y,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu
+2025-03-30 12:42:17,262 - material_analysis.tools.material_tools - INFO - Rule matching completed, found 1 matching materials
+2025-03-30 12:42:18,880 - material_analysis.tools.material_tools - INFO - Saving results to: ./data/result.csv
+2025-03-30 12:42:18,886 - material_analysis.tools.material_tools - INFO - Results saved to ./data/result.csv
+2025-03-30 12:42:20,238 - material_analysis.framework - INFO - Query execution successful
+2025-03-30 12:42:20,239 - nanozyme_framework.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 13:15:18,148 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 13:15:19,959 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 13:15:19,960 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 13:15:22,038 - material_analysis.framework - ERROR - Agent execution error: Connection error.
+Traceback (most recent call last):
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_sync\http_proxy.py", line 317, in handle_request
+    stream = stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_sync\http11.py", line 383, in start_tls
+    return self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_backends\sync.py", line 152, in start_tls
+    with map_exceptions(exc_map):
+  File "D:\anaconda\envs\nanozyme\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 955, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\anaconda\envs\nanozyme\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\nanozyme\code\src\framework.py", line 100, in run
+    response = self.agent.run(query)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\_api\deprecation.py", line 181, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 606, in run
+    return self(args[0], callbacks=callbacks, tags=tags, metadata=metadata)[
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\_api\deprecation.py", line 181, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 389, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\agents\agent.py", line 1624, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\agents\agent.py", line 1330, in _take_next_step
+    [
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\agents\agent.py", line 1358, in _iter_next_step
+    output = self._action_agent.plan(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\agents\agent.py", line 804, in plan
+    full_output = self.llm_chain.predict(callbacks=callbacks, **full_inputs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\llm.py", line 318, in predict
+    return self(kwargs, callbacks=callbacks)[self.output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\_api\deprecation.py", line 181, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 389, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\llm.py", line 126, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\llm.py", line 138, in generate
+    return self.llm.generate_prompt(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\language_models\chat_models.py", line 843, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\language_models\chat_models.py", line 683, in generate
+    self._generate_with_cache(
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\language_models\chat_models.py", line 908, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_community\chat_models\openai.py", line 476, in _generate
+    response = self.completion_with_retry(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_community\chat_models\openai.py", line 387, in completion_with_retry
+    return self.client.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 979, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 1057, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 979, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 1057, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 989, in _request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+
+2025-03-30 13:15:22,038 - nanozyme_framework.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
+2025-03-30 13:19:51,665 - material_analysis.framework - INFO - Initializing SimpleReActFramework...
+2025-03-30 13:19:53,323 - material_analysis.framework - INFO - SimpleReActFramework initialization completed
+2025-03-30 13:19:53,323 - material_analysis.framework - INFO - Executing query: Read material expressions from ./data/predict.csv, then use the model ./model/catboost_model.cbm to predict performance, finally perform rule matching to find elements containing Sc, Y, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, and save the results in ./data/result.csv
+2025-03-30 13:19:55,281 - material_analysis.framework - ERROR - Agent execution error: Connection error.
+Traceback (most recent call last):
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_sync\connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_sync\http_proxy.py", line 317, in handle_request
+    stream = stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_sync\http11.py", line 383, in start_tls
+    return self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_backends\sync.py", line 152, in start_tls
+    with map_exceptions(exc_map):
+  File "D:\anaconda\envs\nanozyme\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 955, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\anaconda\envs\nanozyme\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\nanozyme\code\src\framework.py", line 100, in run
+    response = self.agent.run(query)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\_api\deprecation.py", line 181, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 606, in run
+    return self(args[0], callbacks=callbacks, tags=tags, metadata=metadata)[
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\_api\deprecation.py", line 181, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 389, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\agents\agent.py", line 1624, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\agents\agent.py", line 1330, in _take_next_step
+    [
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\agents\agent.py", line 1358, in _iter_next_step
+    output = self._action_agent.plan(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\agents\agent.py", line 804, in plan
+    full_output = self.llm_chain.predict(callbacks=callbacks, **full_inputs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\llm.py", line 318, in predict
+    return self(kwargs, callbacks=callbacks)[self.output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\_api\deprecation.py", line 181, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 389, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\llm.py", line 126, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain\chains\llm.py", line 138, in generate
+    return self.llm.generate_prompt(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\language_models\chat_models.py", line 843, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\language_models\chat_models.py", line 683, in generate
+    self._generate_with_cache(
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_core\language_models\chat_models.py", line 908, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_community\chat_models\openai.py", line 476, in _generate
+    response = self.completion_with_retry(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\langchain_community\chat_models\openai.py", line 387, in completion_with_retry
+    return self.client.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 979, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 1057, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 979, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 1057, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\nanozyme\Lib\site-packages\openai\_base_client.py", line 989, in _request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+
+2025-03-30 13:19:55,281 - nanozyme_framework.web - INFO - Query processed: Read material expressions from ./data/predict.csv,...
