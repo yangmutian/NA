@@ -1,4 +1,6 @@
 # A framework for analyzing material properties using LLM-based agents and material science tools.
+![demo](https://github.com/user-attachments/assets/967f84b5-8787-45e8-9064-d66169120fae)
+
 
 # Research Instruction
 ## 1. Preparation
