@@ -34,7 +34,7 @@ Before execute NZ-A, researchers should train the AI model through the following
 python train.py
 ```
 
-## Launching NZ-A
+## :rocket: Launching NZ-A
 Researchers should launch NZ-A trhough the folloing command:
 ```
 python app.py
