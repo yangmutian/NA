@@ -11,6 +11,12 @@ Using NZ-A, researchers successfully identify six unreported rare earth-based pe
 
 **Note: The current repo ONLY represents a minimal implementation and will be iteratively refined throughout the peer-review process.**
 
+## :zap: Online Demo
+
+We are developing an ​​online demo​​ for researchers ​​without any programming expertise​​. The current interface is shown below, and the ​​web service​​ will be released during the peer-review process.
+
+https://github.com/user-attachments/assets/079f1dd4-bf7d-4ce0-8ea5-b17a24886967
+
 ## :package: Installation
 
 NZ-A is intended to work with Python 3.12. Installation can be done via pip:
@@ -43,7 +49,7 @@ python app.py
 ```
 Then, NZ-A can be accessed in http://127.0.0.1:5000/ via web browser.
 
-After entering `OpenAI API key`, researchers can perform nanozymes screening through natural language :grin:
+After entering [DeepSeek API key](https://api-docs.deepseek.com/), researchers can perform nanozymes screening through natural language :grin:
 
 ## :scroll: Citation
 We will update this block after the corresponding manuscript acceptance. 
