@@ -43,8 +43,8 @@ Then, NZ-A can be accessed in http://127.0.0.1:5000/ via web browser.
 
 After entering `OpenAI API key`, researchers can perform nanozymes screening through natural language :grin:
 
-## Citation
+## :scroll: Citation
 We will update this block after acceptance. 
 
-## License
+## :bookmark: License
 This project is licensed under the Apache-2.0 License.
