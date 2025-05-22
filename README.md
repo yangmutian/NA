@@ -1,10 +1,11 @@
 # NZ-A
 
-[![Python Version](https://img.shields.io/badge/python-3.12-da282a?color=FF8921)](https://www.python.org/)
+[![Python Version](https://img.shields.io/badge/python-3.12-orange)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
+
+
 
 NZ-A is a framework for the analysis of material performance using LLM-based agents and customized AI toolkits.
-
-[![PyPI](https://img.shields.io/pypi/v/llamafactory)](https://pypi.org/project/llamafactory/)
 
 # DEMO video
 ![demo](https://github.com/user-attachments/assets/967f84b5-8787-45e8-9064-d66169120fae)
