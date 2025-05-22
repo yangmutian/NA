@@ -5,8 +5,7 @@
 ![Paper](https://img.shields.io/badge/Paper-green)
 ![Demo](https://img.shields.io/badge/Demo-red)
 
-
-NZ-A is a framework for the analysis of material performance using LLM-based agents and customized AI toolkits.
+This repo provides code for NZ-A, a framework for the material research equipped with LLM-based agents and customized AI toolkits. Using NZ-A, researchers without programming expertise successfully identify six unreported rare earth-based peroxidase (POD)-like nanozymes from nearly 600k candidate materials within seconds. 
 
 # DEMO video
 ![demo](https://github.com/user-attachments/assets/967f84b5-8787-45e8-9064-d66169120fae)
