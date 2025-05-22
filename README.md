@@ -17,6 +17,10 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
+The data for train should be saved in 'data' as 'train.csv'.
+[Wei dataset](http://nanozymes.net), [Dizyme dataset](https://dizyme.aicidlab.itmo.ru/), and [Huang dataset](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202201736) are employed for model training.The trained model is used to screen the nanozymes in [Materials Project](https://next-gen.materialsproject.org/), [Aflow](https://aflowlib.org/), [OQMD)[https://oqmd.org/].  
+
+
 
 
 # DEMO video
