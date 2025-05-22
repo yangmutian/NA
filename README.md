@@ -22,7 +22,7 @@ pip install -r requirements.txt
 This study incoprates [Wei dataset](http://nanozymes.net), [Dizyme dataset](https://dizyme.aicidlab.itmo.ru/), and [Huang dataset](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202201736) for model training. Researchers can download these datasets and replace `/data/train.csv`. In addition to open datasets, researchers can also replace `/data/train.csv` with their custom data to train personalized AI models.
 
 **Screen**
-The trained model is used to screen the nanozymes in [Materials Project](https://next-gen.materialsproject.org/), [Aflow](https://aflowlib.org/), [OQMD][https://oqmd.org/]. Researchers can download these datasets through corresponding API and replace `/data/test.csv`. Moreover, researchers can also replace `/data/test.csv` with their own data to screen personalized dataset.
+The trained model is used to screen the nanozymes in [Materials Project](https://next-gen.materialsproject.org/), [Aflow](https://aflowlib.org/), [OQMD](https://oqmd.org/). Researchers can download these datasets through corresponding API and replace `/data/test.csv`. Moreover, researchers can also replace `/data/test.csv` with their own data to screen personalized dataset.
 
 
 
