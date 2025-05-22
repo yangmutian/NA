@@ -15,7 +15,7 @@ Using NZ-A, researchers successfully identify six unreported rare earth-based pe
 
 We are developing an ​​online demo​​ for researchers ​​without any programming expertise​​. The current interface is shown below, and the ​​web service​​ will be released during the peer-review process.
 
-https://github.com/user-attachments/assets/e01e1770-97c5-497a-b2ee-795220f2cbe4
+https://github.com/user-attachments/assets/c2db9ecb-3dab-4e6f-9d86-5caf6e8959f3
 
 ## :package: Installation
 
