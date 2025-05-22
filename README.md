@@ -9,7 +9,7 @@ This repo provides code for NanoZyme-Agent (NZ-A), a framework equipped with LLM
 
 Using NZ-A, researchers without programming expertise successfully identify six unreported rare earth-based peroxidase (POD)-like nanozymes from nearly 600k candidate materials within seconds. 
 
-## Installation
+## :package: Installation
 
 NZ-A is intended to work with Python 3.12. Installation can be done via pip:
 
@@ -17,7 +17,7 @@ NZ-A is intended to work with Python 3.12. Installation can be done via pip:
 pip install -r requirements.txt
 ```
 
-## Dataset
+## :books: Dataset
 
 **Train dataset**
 
@@ -27,7 +27,7 @@ This study incoprates [Wei dataset](http://nanozymes.net), [Dizyme dataset](http
 
 The trained model is used to screen the nanozymes in [Materials Project](https://next-gen.materialsproject.org/), [Aflow](https://aflowlib.org/), and [OQMD](https://oqmd.org/). Researchers can download these datasets through corresponding API and replace `/data/test.csv`. Moreover, researchers can also replace `/data/test.csv` with their own data to screen personalized dataset.
 
-## Training Model
+## :robot: Training Model
 Before execute NZ-A, researchers should train the AI model through the following command:
 
 ```
