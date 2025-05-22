@@ -9,6 +9,8 @@ This repo provides code for NanoZyme-Agent (NZ-A), a framework equipped with LLM
 
 Using NZ-A, researchers successfully identify six unreported rare earth-based peroxidase (POD)-like nanozymes from nearly 600k candidate materials within seconds. 
 
+**Note: The current repo ONLY represents a minimal implementation and will be iteratively refined throughout the peer-review process.**
+
 ## :package: Installation
 
 NZ-A is intended to work with Python 3.12. Installation can be done via pip:
