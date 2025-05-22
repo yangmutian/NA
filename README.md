@@ -2,7 +2,7 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.12-orange)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-Apache--2.0-blue)](https://opensource.org/licenses/Apache-2.0)
-[![Paper](https://img.shields.io/badge/Paper-green)]
+![Paper](https://img.shields.io/badge/Paper-green)
 
 
 NZ-A is a framework for the analysis of material performance using LLM-based agents and customized AI toolkits.
