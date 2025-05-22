@@ -28,20 +28,20 @@ This study incoprates [Wei dataset](http://nanozymes.net), [Dizyme dataset](http
 The trained model is used to screen the nanozymes in [Materials Project](https://next-gen.materialsproject.org/), [Aflow](https://aflowlib.org/), and [OQMD](https://oqmd.org/). Researchers can download these datasets through corresponding API and replace `/data/test.csv`. Moreover, researchers can also replace `/data/test.csv` with their own data to screen personalized dataset.
 
 ## Training Model
-Before execute NZ-A, researchers should train the AI model through the following command
+Before execute NZ-A, researchers should train the AI model through the following command:
 
 ```
 python train.py
 ```
 
 ## Launching NZ-A
-Researchers should launch NZ-A trhough the folloing command
+Researchers should launch NZ-A trhough the folloing command:
 ```
 python app.py
 ```
-Then, NZ-A can be accessed in http://127.0.0.1:5000/ via web browser
+Then, NZ-A can be accessed in http://127.0.0.1:5000/ via web browser.
 
-After entering OpenAI API key, researchers can perform nanozymes screening through natural language :grin:
+After entering `OpenAI API key`, researchers can perform nanozymes screening through natural language :grin:
 
 ## Citation
 We will update this block after acceptance. 
